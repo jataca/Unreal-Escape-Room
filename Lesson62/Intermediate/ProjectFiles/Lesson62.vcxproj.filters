@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Lesson62.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{3C6C0424-F30D-44FF-8915-39E6A8AF2196}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Lesson62.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Lesson62Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{43F96636-3536-4224-9367-B0648D687610}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Lesson62">
+			<UniqueIdentifier>{D9B94F48-6B71-4053-8469-0C73460A7AF2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Lesson62\Lesson62.Build.cs">
+			<Filter>Source\Lesson62</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Lesson62\Lesson62.cpp">
+			<Filter>Source\Lesson62</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Lesson62\Lesson62.h">
+			<Filter>Source\Lesson62</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Lesson62\Lesson62GameModeBase.cpp">
+			<Filter>Source\Lesson62</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Lesson62\Lesson62GameModeBase.h">
+			<Filter>Source\Lesson62</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
